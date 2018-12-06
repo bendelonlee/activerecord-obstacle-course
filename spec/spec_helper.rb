@@ -93,4 +93,13 @@ RSpec.configure do |config|
   # as the one that triggered the failure.
   Kernel.srand config.seed
 =end
+  config.full_backtrace = false
+  config.backtrace_exclusion_patterns = [
+    /runner/,
+    /reporter/,
+    /example/,
+    /configuration/,
+    /hooks/
+  ]
+
 end
