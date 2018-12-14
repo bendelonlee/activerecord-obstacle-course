@@ -26,7 +26,7 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'rspec-rails'
   gem 'active-designer'
-
+  gem 'bullet'
 end
 
 group :development do
